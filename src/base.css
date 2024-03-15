@@ -1,0 +1,41 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.common__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  row-gap: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  padding: 20px 10px;
+}
+
+.common__input {
+  width: 100%;
+}
+
+.common__button {
+  max-width: 30%;
+}
+
+.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
